@@ -28,4 +28,10 @@ int main(int ac, char*av[])
    int total = sum_array(N, A);
 
    std::cout << "Sum of all " << N << " items in A[] is: " << total << std::endl;
+
+   if (total == (N*(N-1)/2))
+      std::cout << "Correct check succeeds, you computed the correct answer." << std::endl;
+   else
+      std::cout << "Correct check fails, you didn't compute the correct answer." << std::endl;
+
 }
