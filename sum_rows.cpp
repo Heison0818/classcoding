@@ -9,6 +9,14 @@
 void
 sum_rows(int N, int A[], int y[])
 {
+   // assume:
+   // input array A[] is of size NxN, stored as a "flat, 1D array"
+   // but we will consider A[] to be a logical, NxN 2D array consisting
+   // of N rows and N columns
+
+   // your job: write code that will for each row i in A, sum all the values 
+   // all N coluimns of row row A[i,*] and place the sum into y[i]
+
    // Put your code here, return the correct result
 }
 

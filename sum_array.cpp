@@ -7,6 +7,10 @@
 int 
 sum_array(int N, int A[])
 {
+   // input consists of an integer N and an array A[] of size N
+   // your job: write code to compute the sum of all values in A[]
+   // and return that sum to the caller
+
    // Put your code here, return the correct result
    return 0;
 }
