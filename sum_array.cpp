@@ -12,14 +12,12 @@ sum_array(int N, int A[])
    // and return that sum to the caller
 
    // Put your code here, return the correct result
-   int total = 0;
-   for (int i = 0; i < N; i++) {
-      total += A[i];
-   }
-   return total;
 
+   //From slide 23, page 28
+  int i, accum = 0;
+  for (i=0; i<N;i++) accum +=A[i];
+  return accum;
 }
-
 int main(int ac, char*av[])
 {
    int N=(1<<10);
